@@ -30,7 +30,7 @@
 			href={`${base}/`}
 			class="nav-menu-left decoration-none flex flex-row items-center cursor-pointer px-4 text-[var(--secondary-text)] self-stretch hover:bg-[color:var(--main-hover)]"
 		>
-			<UIcon icon="i-carbon-code" classes="text-2em" />
+			<UIcon icon="i-carbon-parameter" classes="text-2em" />
 			<span class="ml-2 text-md font-bold hidden md:inline">{HOME.name} {HOME.lastName}</span>
 		</a>
 		<div class="flex flex-row flex-1 self-center justify-center">

@@ -39,6 +39,7 @@ const Assets = {
 	NodeJs: a('node.png'),
 	Deno: a('deno.png', 'deno-dark.png'),
 	Svelte: a('svelte.png'),
+	Spring: a('spring.svg'),
 	ExpressJs: a('express.png'),
 	JavaScript: a('js.png'),
 	Fastify: a('fastify.svg', 'fastify-dark.png'),
@@ -70,7 +71,10 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Qt: a('qt.webp'),
+	Linux: a('tux.svg'),
+    Git: a('git.svg'),
 };
 
 export default Assets;

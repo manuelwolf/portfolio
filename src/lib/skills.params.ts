@@ -9,6 +9,22 @@ export type ArrayElementType<ArrayType extends readonly unknown[]> =
 
 const MY_SKILLS = [
 	s({
+		slug: 'spring',
+		color: 'green',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		logo: Assets.Spring,
+		name: 'Spring (+Boot)'
+	}),
+	({
+		slug: 'java',
+		color: 'red',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		logo: Assets.Java,
+		name: 'Java'
+	}),
+	s({
 		slug: 'js',
 		color: 'yellow',
 		description:
@@ -41,14 +57,6 @@ const MY_SKILLS = [
 		name: 'HTML'
 	}),
 	s({
-		slug: 'sass',
-		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass'
-	}),
-	s({
 		slug: 'reactjs',
 		color: 'cyan',
 		description:
@@ -62,6 +70,55 @@ const MY_SKILLS = [
 		description: svelte,
 		logo: Assets.Svelte,
 		name: 'Svelte'
+	}),
+	s({
+		slug: 'c',
+		color: 'blue',
+		description: '',
+		logo: Assets.C,
+		name: 'C'
+	}),
+	s({
+		slug: 'cpp',
+		color: 'blue',
+		description: '',
+		logo: Assets.Cpp,
+		name: 'C++'
+	}),
+	s({
+		slug: 'qt',
+		color: 'green',
+		description: '',
+		logo: Assets.Qt,
+		name: 'Qt'
+	}),
+	s({
+		slug: 'py',
+		color: 'yellow',
+		description: '',
+		logo: Assets.Python,
+		name: 'Python'
+	}),
+	s({
+		slug: 'flask',
+		color: 'black',
+		description: '',
+		logo: Assets.Flask,
+		name: 'Flask'
+	}),
+	s({
+		slug: 'Linux',
+		color: 'yellow',
+		description: 'asdfasdf',
+		logo: Assets.Linux,
+		name: 'Linux'
+	}),
+	s({
+		slug: 'Docker',
+		color: 'blue',
+		description: '',
+		logo: Assets.Docker,
+		name: 'Docker'
 	})
 ];
 
