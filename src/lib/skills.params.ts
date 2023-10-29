@@ -119,6 +119,13 @@ const MY_SKILLS = [
 		description: '',
 		logo: Assets.Docker,
 		name: 'Docker'
+	}),
+	s({
+		slug: 'git',
+		color: 'orange',
+		description: '',
+		logo: Assets.Git,
+		name: 'Git'
 	})
 ];
 

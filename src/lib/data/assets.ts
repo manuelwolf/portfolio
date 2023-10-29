@@ -74,7 +74,7 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	Qt: a('qt.webp'),
 	Linux: a('tux.svg'),
-    Git: a('git.svg'),
+    Git: a('git.png'),
 };
 
 export default Assets;
