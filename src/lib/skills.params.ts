@@ -114,6 +114,13 @@ const MY_SKILLS = [
 		name: 'Linux'
 	}),
 	s({
+		slug: 'bash',
+		color: 'black',
+		description: '',
+		logo: Assets.Bash,
+		name: 'bash'
+	}),
+	s({
 		slug: 'Docker',
 		color: 'blue',
 		description: '',

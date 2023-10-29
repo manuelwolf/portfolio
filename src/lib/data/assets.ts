@@ -75,6 +75,8 @@ const Assets = {
 	Qt: a('qt.webp'),
 	Linux: a('tux.svg'),
     Git: a('git.png'),
+    Bash: a('bash.png'),
+    HM: a('hm_logo_col.png'),
 };
 
 export default Assets;

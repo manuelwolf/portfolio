@@ -60,7 +60,23 @@ const MY_PROJECTS: Array<Project> = [
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
 		]
-	}
+	},
+	{
+		slug: 'hannover-messe-2018',
+		color: '#5e95e3',
+		description:
+			'Hannover-Messe Development of a demonstrator for time sensitive networking',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		links: [{ to: 'https://www.fokus.fraunhofer.de/c8b99d468929dffa', label: 'Fraunhofer FOKUS News (2018)' }],
+		logo: Assets.HM,
+		name: "Technical Demonstrator 'Industrie 4.0' for Hannover Messe 2018",
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('React', 'Flask', 'bash'),
+		type: 'Web Application'
+	},
 ];
 
 export default MY_PROJECTS;
