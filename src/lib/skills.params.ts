@@ -93,7 +93,7 @@ const MY_SKILLS = [
 		name: 'Qt'
 	}),
 	s({
-		slug: 'py',
+		slug: 'python',
 		color: 'yellow',
 		description: '',
 		logo: Assets.Python,
@@ -107,7 +107,7 @@ const MY_SKILLS = [
 		name: 'Flask'
 	}),
 	s({
-		slug: 'Linux',
+		slug: 'linux',
 		color: 'yellow',
 		description: 'asdfasdf',
 		logo: Assets.Linux,
@@ -121,7 +121,7 @@ const MY_SKILLS = [
 		name: 'bash'
 	}),
 	s({
-		slug: 'Docker',
+		slug: 'docker',
 		color: 'blue',
 		description: '',
 		logo: Assets.Docker,

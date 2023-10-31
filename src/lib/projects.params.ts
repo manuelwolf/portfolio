@@ -67,14 +67,57 @@ const MY_PROJECTS: Array<Project> = [
 		description:
 			'Hannover-Messe Development of a demonstrator for time sensitive networking',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'With a team of 8 software developers we developed within a period of 6 months a 3-axis portal sketching machine from scratch.',
 		links: [{ to: 'https://www.fokus.fraunhofer.de/c8b99d468929dffa', label: 'Fraunhofer FOKUS News (2018)' }],
 		logo: Assets.HM,
 		name: "Technical Demonstrator 'Industrie 4.0' for Hannover Messe 2018",
 		period: {
-			from: new Date()
+			from: new Date(2017, 11, 1),
+			to: new Date(2018, 3, 24)
 		},
-		skills: getSkills('React', 'Flask', 'bash'),
+		skills: getSkills('reactjs', 'js', 'python','flask', 'bash', 'linux'),
+		type: 'Web Application'
+	},
+	{
+		slug: 'fuseco-2017',
+		color: '#5e95e3',
+		description:
+			'',
+		shortDescription:
+			"As a team of 3 software developers we migrated a Java based application for 'Enterprise design, Analysis and Operation' used in process modeling towards a modern web application.",
+		links: [
+			{
+				to: 'https://www.fokus.fraunhofer.de/ngni/veranstaltungen/fuseco_forum_2017',
+				label: 'FUSECO Forum 2017' },
+			{
+				to: 'https://youtu.be/A8PjZ1yEwtQ?si=ovFRKSPlxSvYzjll&t=78',
+				label: 'FUSECO Impressions (Robot in the background)'
+			}
+		],
+		logo: Assets.Fuseco2017,
+		name: "Developing an Asset Administration Shell",
+		period: {
+			from: new Date(2017, 8, 1),
+			to: new Date(2017, 10, 15)
+		},
+		skills: getSkills('reactjs', 'js', 'python', 'flask'),
+		type: 'Web Application'
+	},
+	{
+		slug: 'moogo',
+		color: '#5e95e3',
+		description:
+			'',
+		shortDescription:
+			"As a team of 3 software developers we migrated a Java based application for 'Enterprise design, Analysis and Operation' used in process modeling towards a modern web application.",
+		links: [{ to: 'https://moogo.ipk.fraunhofer.de/', label: 'Fraunhofer IPK MO²GO' }],
+		logo: Assets.Unknown,
+		name: "Migration from a Java based UI towards a web application",
+		period: {
+			from: new Date(2016, 8, 1),
+			to: new Date(2017, 7, 31)
+		},
+		skills: getSkills('reactjs', 'js', 'java'),
 		type: 'Web Application'
 	},
 ];

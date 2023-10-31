@@ -77,6 +77,7 @@ const Assets = {
     Git: a('git.png'),
     Bash: a('bash.png'),
     HM: a('hm_logo_col.png'),
+	Fuseco2017: a('fuseco-2017.webp'),
 };
 
 export default Assets;
