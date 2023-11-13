@@ -76,7 +76,7 @@ const Assets = {
 	Qt: a('qt.webp'),
 	Linux: a('tux.svg'),
     Git: a('git.png'),
-    Bash: a('bash.png'),
+    Bash: a('bash.svg'),
     HM: a('hm_logo_col.png'),
 	Fuseco2017: a('fuseco-2017.webp'),
 	Fuseco2018: a('fuseco-2018.webp'),
