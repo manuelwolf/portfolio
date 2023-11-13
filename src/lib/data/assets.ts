@@ -78,6 +78,9 @@ const Assets = {
     Bash: a('bash.png'),
     HM: a('hm_logo_col.png'),
 	Fuseco2017: a('fuseco-2017.webp'),
+	Fuseco2018: a('fuseco-2018.webp'),
+	IIoTForum: a('iiot-forum.webp'),
+	Wireguard: a('wireguard.svg')
 };
 
 export default Assets;

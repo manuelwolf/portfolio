@@ -133,6 +133,20 @@ const MY_SKILLS = [
 		description: '',
 		logo: Assets.Git,
 		name: 'Git'
+	}),
+	s({
+		slug: 'wireguard',
+		color: 'red',
+		description: '',
+		logo: Assets.Wireguard,
+		name: 'WireGuard®'
+	}),
+	s({
+		slug: 'oauth2',
+		color: 'blue',
+		description: '',
+		logo: Assets.Unknown,
+		name: 'OAuth2'
 	})
 ];
 
