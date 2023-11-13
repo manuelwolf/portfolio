@@ -1,0 +1,1 @@
+Credits: [OAuth logo](https://de.wikipedia.org/wiki/Datei:Oauth_logo.svg) by Chris Messina / [CC BY-SA 3.0 Deed](https://creativecommons.org/licenses/by-sa/3.0/deed.en)

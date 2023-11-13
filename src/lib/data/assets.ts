@@ -82,7 +82,8 @@ const Assets = {
 	Fuseco2018: a('fuseco-2018.webp'),
 	IIoTForum: a('iiot-forum.webp'),
 	Wireguard: a('wireguard.svg'),
-	SpringCert: certs('spring-certified-professional-2023.png')
+	SpringCert: certs('spring-certified-professional-2023.png'),
+	OAuth2: a('oauth2.svg'),
 };
 
 export default Assets;

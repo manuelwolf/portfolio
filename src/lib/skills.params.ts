@@ -1,6 +1,7 @@
 import Assets from './data/assets';
 import type { Skill } from './types';
 import svelte from './md/svelte.md?raw';
+import oauth2 from './md/oauth2.md?raw';
 
 const s = (skill: Skill) => skill;
 
@@ -144,8 +145,8 @@ const MY_SKILLS = [
 	s({
 		slug: 'oauth2',
 		color: 'blue',
-		description: '',
-		logo: Assets.Unknown,
+		description: oauth2,
+		logo: Assets.OAuth2,
 		name: 'OAuth2'
 	})
 ];
