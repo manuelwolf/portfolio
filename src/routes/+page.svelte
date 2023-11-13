@@ -7,6 +7,7 @@
 	import MY_SKILLS from '$lib/skills.params';
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
+	import Assets from '../lib/data/assets';
 
 	const { description, lastName, links, name, title, skills } = HOME;
 
@@ -43,4 +44,17 @@
 		</div>
 	</div>
 	<Carrousel items={skills ?? MY_SKILLS} />
+</div>
+<div
+	class="col"
+>
+	<div class="row md:flex-1 justify-center md:justify-start">
+		<a href="https://www.credly.com/badges/194d3d52-9a77-402b-bd54-0e0b7e8991a5/public_url">
+			<img
+				src={Assets.SpringCert}
+				alt="Spring Professional 2023 Certificate Manuel Wolf"
+				width="15%"
+			/>
+		</a>
+	</div>
 </div>

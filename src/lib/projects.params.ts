@@ -67,11 +67,11 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'zim-esp',
 		color: '#5e95e3',
 		logo: Assets.Unknown,
-		name: "Research project securing legacy devices in industrial and medical contexts",
+		name: "Research project securing legacy devices in critical infrastructures",
 		type: 'Embedded Linux, Web Application, DevOps, Security, Zero Trust, Secure Software Development',
 		shortDescription:
 			"Legacy devices with unpatchable software are a major security challenge \
-			in the industrial and medical domain. Funded by the German government this project's \
+			for systems operating in 'critical Infrastructure'. Funded by the German government this project's \
 			goal is to develop an additional security device which protects the legacy device from \
 			threats coming from the network. Zero-Trust, Secure Software Development, Identity Management \
 			",

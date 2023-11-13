@@ -3,6 +3,7 @@ import { theme } from '$lib/stores/theme';
 import { base } from '$app/paths';
 
 const gh = (file: string) => `${base}/logos/${file}`;
+const certs = (file: string) => `${base}/certs/${file}`;
 
 const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
@@ -80,7 +81,8 @@ const Assets = {
 	Fuseco2017: a('fuseco-2017.webp'),
 	Fuseco2018: a('fuseco-2018.webp'),
 	IIoTForum: a('iiot-forum.webp'),
-	Wireguard: a('wireguard.svg')
+	Wireguard: a('wireguard.svg'),
+	SpringCert: certs('spring-certified-professional-2023.png')
 };
 
 export default Assets;
