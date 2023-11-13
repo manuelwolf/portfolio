@@ -53,7 +53,7 @@
 			<img
 				src={Assets.SpringCert}
 				alt="Spring Professional 2023 Certificate Manuel Wolf"
-				width="15%"
+				width="30%"
 			/>
 		</a>
 	</div>
